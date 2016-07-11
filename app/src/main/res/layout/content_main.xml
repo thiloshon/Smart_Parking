@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1"
+    android:background="@mipmap/bg2">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="67dp"
+        android:text="View Maps"
+        android:onClick="sendMessage"
+        android:background="@color/accent_material_light"
+        android:elegantTextHeight="true"
+        android:focusableInTouchMode="false"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/button"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Real Time Vehicle Parking Guidance System keeps track of all the available parking slots of car parks around the city. The map is updated on a few seconds frequency. This will guide motorists, where to head to park their vehicles. \n\nClick on &apos;Enter Map&apos; button to enter the map which has details about free slots around the city. \n\n Happy Parking!"
+        android:id="@+id/textView2"
+        android:layout_weight="1.50"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:gravity="center_vertical"
+        android:layout_above="@+id/button"
+        android:fontFamily="AvenirNext LT Pro Cn"
+
+        android:focusable="false"
+        android:textColor="@color/accent_material_light"
+        android:textColorHighlight="#fa7d7d"
+        android:visibility="visible"
+        android:typeface="serif"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+
+</RelativeLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="iit.smartparking.MainActivity"
+        tools:showIn="@layout/app_bar_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="227dp" />
+    </RelativeLayout>-->
